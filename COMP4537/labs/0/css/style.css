@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for main page*/
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Style for main container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* h1 style*/
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Style for game area */
+.game-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+/* Style for input field */
+#buttonCount {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 60px;
+    text-align: center;
+}
+
+/* Sytle for GO button */
+button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+
+}
+
+/* Style for GO button*/
+button:hover {
+    background-color: #45a049;
+}
+
+/* Message style*/
+.message {
+    text-align: center;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* Style for success messages */
+.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+/* Style for error messages */
+.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Style for game area */
+.game-area {
+    position: relative;
+    min-height: 400px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+/* Style for memory buttons */
+.memory-button {
+    position: absolute;
+    height: 5em;
+    width: 10em;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+/* Style for button hover effect */
+.memory-button:hover {
+    transform: scale(1.05);
+}
+
+/* Style for clicked memory button */
+.memory-button.clicked {
+    border: 3px solid #333;
+}
